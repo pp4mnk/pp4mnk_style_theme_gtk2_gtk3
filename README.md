@@ -28,7 +28,7 @@ I’ve included the individual files in case you’d like to browse or inspect t
 
 **What’s included in version 1.1**
 
-- **PP4MNK-Light** and **PP4MNK-Dark** themes for GTK 2 and GTK 3, both included in the PET.
+- **PP4MNK-Light** and **PP4MNK-Dark** themes for GTK 2 and GTK 3, both included in the PET (the dark one has rox with incorrect colours, change it from rox OPTIONS).
 - A **JWM theme** with a midnight-blue panel, a violet highlight for the active workspace, lavender window borders,
 -  and a high-contrast clock.
 - My original **1672 × 941 wallpaper**, bundled in the PET and also available as a standalone PNG.
