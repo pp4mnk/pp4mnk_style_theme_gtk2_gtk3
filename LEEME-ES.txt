@@ -1,0 +1,77 @@
+pp4mnk_style 1.1
+EasyOS Excalibur 7.5 · GTK 2, GTK 3, JWM y ROX-Filer
+===================================================
+
+INSTALACIÓN
+
+1. Descomprime el ZIP y abre pp4mnk_style-1.1.pet desde ROX-Filer.
+   Confirma la instalación en PKGget.
+
+2. Abre el selector de temas GTK/Qt de EasyOS (Chtheme). Puedes
+   lanzarlo desde una terminal con gtk_chtheme_wrapper. Elige
+   PP4MNK-Light (claro) o PP4MNK-Dark (oscuro) y pulsa Aplicar.
+   Vuelve a abrir las aplicaciones que conserven el tema anterior.
+
+3. En EasyJWM, abre el selector de tema JWM (bordes de ventana) y
+   elige pp4mnk-style. Cambia colores de panel, paginador, reloj,
+   menús y bordes. El tema utiliza tu configuración de barras y accesos
+   directos.
+
+4. En el selector de fondos (qwallpaper), elige
+   pp4mnk-style-night-road.png. El PET ya lo instala en
+   /usr/share/backgrounds. El ZIP incluye también el PNG original
+   a 1672 × 941 por si quieres usarlo por separado.
+
+ICONOS DE DISCOS EN EL ESCRITORIO ROX
+
+5. Abre una terminal como root y ejecuta:
+
+       pp4mnk-style-icons aplicar
+
+   Guarda tu trabajo y usa «Reiniciar X» para actualizar los iconos
+   ya visibles. En el modo de escritorio gestionado por JWM pueden
+   no aparecer iconos de disco sobre el fondo.
+
+   Hay 15 PNG transparentes de 48 × 48 para disco, USB, tarjeta SD,
+   unidad óptica y disquete. Lavanda indica que la unidad está
+   desmontada, punto cian que está montada y candado que es una
+   unidad montada que EasyOS no permite desmontar desde el escritorio.
+   El script actúa sobre los nombres de icono que ya existen en EasyOS
+   y conserva los archivos y enlaces originales.
+
+CONKY OPCIONAL
+
+Si ya tienes Conky instalado, puedes probar el panel en primer plano:
+
+       conky -c /usr/share/pp4mnk-style/conky.conf
+
+Ctrl+C lo cierra. Si ya tienes otro Conky visible en esa esquina,
+cierra tu instancia anterior desde el método que usaste para iniciarla.
+La primera línea de datos muestra RAM. ZRAM muestra el espacio de
+intercambio usado y total de /dev/zram*. qfix muestra el valor recibido
+del arranque. Una raya indica que el dato no está disponible.
+Para mover el panel, copia el .conf y ajusta gap_x y gap_y.
+
+CÓMO VOLVER AL ASPECTO ANTERIOR
+
+1. Selecciona tu tema GTK, tema JWM y fondo anteriores.
+2. Si activaste los iconos, ejecuta:
+
+       pp4mnk-style-icons restaurar
+
+   Usa «Reiniciar X» al terminar. Si cambiaste los iconos después
+   con otra herramienta, el script avisa y conserva sus cambios.
+   La copia se encuentra en /root/.local/state/pp4mnk-style/drive-icons.
+3. Si quieres quitar el pack, desinstala el PET desde PKGget después
+   de restaurar el aspecto. El tema pp4mnk 1.0 usa nombres propios
+   y sigue disponible si lo tienes instalado.
+
+Si arrancas en RAM y quieres conservarlo tras apagar, guarda la
+sesión cuando EasyOS te lo pregunte.
+
+NOTAS
+
+GTK 2 utiliza el motor Pixbuf/Pixmap y GTK 3 requiere GTK 3.20 o
+posterior. Las variantes se seleccionan de forma independiente.
+La edición GTK original de pp4mnk toma como base Eucalypt,
+de 01micko (2011). Fondo original aportado para esta versión.
