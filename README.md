@@ -6,7 +6,7 @@ donde tienen todo el paquete listo para instalarse con .pet incluido para easyos
 pp4mnk_style_pack1.tar.gz  ES EL BÁSICO CON FONDO DE PANTALLA Y MODIFICACIONES ELEMENTALES
 pp4mnk_style_1.1.tar.gz COMPLETO CON TODO LO QUE LES INDICO A POSTERIORI.
 
-- PET instalable con PP4MNK-Light y PP4MNK-Dark para GTK 2 y GTK 3. (el dark puede hacer que algunos popups se vean mal)
+- PET instalable con PP4MNK-Light y PP4MNK-Dark para GTK 2 y GTK 3. (el dark puede hacer que algunos popups se vean mal el más incómodo el ROX, pero desde optiones del ROX se configura en un momento)
 - Tema JWM con panel azul noche, escritorio activo violeta, bordes lavanda y reloj de alto contraste.
 - Mi fondo original de 1672 × 941, incluido en el PET y también como PNG suelto.
 - 15 iconos de unidades con lavanda para las desmontadas, punto cian para las montadas y candado para las protegidas.
